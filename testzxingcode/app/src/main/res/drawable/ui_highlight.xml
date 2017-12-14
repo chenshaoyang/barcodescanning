@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+<gradient  
+        android:startColor="#0F170447"  
+        android:endColor="#3C08041B"  
+        android:angle="270" /> 
+       
+</shape> -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/possible_result_points" />
+    <item android:state_focused="true" android:drawable="@color/possible_result_points" ></item>
+    <item android:state_selected="true" android:drawable="@color/possible_result_points" />
+    <item android:drawable="@color/transparent" />
+</selector>
